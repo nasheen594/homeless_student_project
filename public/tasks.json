@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Service 1",
+        "description": "At Haven For Homeless, our core belief is that every individual, regardless of their circumstances, deserves a haven—a sanctuary where they can find solace, regain their sense of security, and rebuild their lives. We are dedicated to providing a safe, welcoming environment with clean and comfortable living spaces, offering individuals the stability they need to begin anew. With your support and participation, we can together make a profound difference, touching the lives of those in need and restoring hope, one precious soul at a time.",
+        "Hours": "Hours: 24 hours"
+    },
+    {
+        "id": 2,
+        "title": "Service 2",
+        "description": "Welcome to Haven For Homeless, a dedicated service offering nourishment and compassion to those experiencing homelessness. We understand that access to regular meals is essential for physical and emotional well-being. That's why we provide free, nutritious food to ensure that no one goes hungry. Our team of caring volunteers serves warm meals with dignity and respect, fostering a sense of community and belonging. Join us in our mission to alleviate hunger and restore hope. Together, we can make a difference, one meal at a time.",
+        "Hours": "Hours: 17:00 - 19:00 hours"
+    },
+    {
+        "id": 3,
+        "title": "Service 3",
+        "description": "At Haven For Homeless, we recognize the importance of clean and comfortable clothing for individuals facing homelessness. Our dedicated service provides free, high-quality clothing to help restore dignity and warmth. Our compassionate team ensures a welcoming environment where individuals can browse and choose clothing items that suit their needs. Join us in our mission to clothe those in need, providing them with the essentials and a renewed sense of self. Together, we can make a positive impact, one garment at a time.",
+        "Hours": "Hours: 11:00 - 13:00 hours"
+    }
+]

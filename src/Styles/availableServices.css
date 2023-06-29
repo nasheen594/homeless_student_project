@@ -1,0 +1,139 @@
+.service img {
+  width: 100%; 
+  height: auto; 
+}
+
+.service {
+  border: 2px solid white;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header-blue-AS {
+  background:linear-gradient(135deg, #172a74, #21a9af);
+  background-color:#184e8e;
+  min-height: 100vh;
+  width: 100vw;
+  padding-bottom:1rem;
+}
+
+.header-blue-AS .hero {
+  margin-top:20px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .header-blue-AS .hero {
+    margin-top:60px;
+    text-align:left;
+  }
+}
+
+.header-blue-AS .hero h1 {
+  color:#fff;
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:15px;
+  font-weight:300;
+  line-height:1.4;
+}
+
+@media (min-width:992px) {
+  .header-blue-AS .hero h1 {
+    margin-top:100px;
+    margin-bottom:24px;
+    line-height:1.2;
+  }
+}
+
+.header-blue-AS .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px; 
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.service-item {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #646464;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-item p:nth-child(3),
+.service-item p:nth-child(4) {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.header-blue-AS h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.header-blue-AS h1 {
+  color: white;
+  padding: 30px;
+}
+
+
+p {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .service-list {
+    grid-template-columns: 1fr;
+  }
+
+  h1, h2, p {
+    font-size: 1.2em;
+  }
+
+  .service-item {
+    margin-bottom: 20px;
+  }
+
+  .service-item button,
+  .service-item a {
+    padding: 15px;
+    font-size: 1.2em;
+  }
+}
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* This ratio gives a 16:9 aspect ratio. Adjust as needed. */
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important; /* Override inline styles. */
+  height: 100% !important; /* Override inline styles. */
+}

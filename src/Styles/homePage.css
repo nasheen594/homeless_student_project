@@ -1,0 +1,76 @@
+.header-blue {
+    background:linear-gradient(135deg, #172a74, #21a9af);
+    background-color:#184e8e;
+    min-height: 100vh;
+    width: 100vw;
+    padding-bottom:1rem;
+}
+
+.header-blue .hero {
+  margin-top:20px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .header-blue .hero {
+    margin-top:60px;
+    text-align:left;
+  }
+}
+  
+@media (min-width:992px) {
+  .header-blue .hero h1 {
+    margin-top:100px;
+    margin-bottom:24px;
+    line-height:1.2;
+  }
+}
+
+.header-blue .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+.header-blue .Homeland_Image {
+  text-align:right;
+}
+
+.header-blue div.Shelter {
+  position:relative;
+  max-width:300px;
+  margin:20px;
+  display:inline-block;
+}
+
+.header-blue .Shelter img.Homeland {
+  width:100%;
+  height:auto;
+}
+
+.header-blue .Shelter .screen {
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background-size:cover;
+  background-position:center;
+}
+
+.header-blue .Shelter .screen:before {
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}

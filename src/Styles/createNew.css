@@ -1,0 +1,67 @@
+.header-blue {
+    background:linear-gradient(135deg, #172a74, #21a9af);
+    background-color:#184e8e;
+    min-height: 100vh;
+    width: 100vw;
+    padding-bottom:1rem;
+}
+  
+.header-blue .hero {
+    margin-top:20px;
+    text-align:center;
+}
+  
+@media (min-width:768px) {
+    .header-blue .hero {
+      margin-top:60px;
+      text-align:left;
+    }
+}
+  
+.header-blue .hero h1 {
+    color:#fff;
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:15px;
+    font-weight:300;
+    line-height:1.4;
+}
+  
+@media (min-width:992px) {
+    .header-blue .hero h1 {
+      margin-top:25px;
+      margin-bottom:24px;
+      line-height:1.2;
+    }
+}
+  
+.header-blue .hero p {
+    color:rgba(255,255,255,0.8);
+    font-size:20px;
+    margin-bottom:30px;
+    font-weight:300;
+}
+    
+.form-control {
+    background: linear-gradient(135deg, #aed7e9, #d1eaf3); /* Lighter blue gradient */
+    background-color: #ebeff1;
+    color: black;
+    border: none;
+}
+
+.form-label{
+    color: #ebeff1;
+}
+
+.form-control::placeholder { /* Placeholder text color */
+    color: #ebeff1;
+}
+
+#create-service-form {
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    background-color: #aed7e9; /* Light blue, adjust as needed */
+    border-radius: 15px; /* Adjust as needed for desired roundness */
+    padding: 20px; /* Adjust as needed for desired padding */
+    box-shadow: 0px 0px 10px rgba(0,0,0,1); /* Optional: Adds a subtle shadow for depth */
+}
+
